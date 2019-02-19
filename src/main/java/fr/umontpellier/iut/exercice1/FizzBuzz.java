@@ -17,8 +17,8 @@ public class FizzBuzz {
 
     public String[] computeList(int n) {
         String[] chaine =new String[n];
-        for(int i=1;i<=n;i++){
-            chaine[i-1] += getValue(i);
+        for(int i=0;i<n;i++){
+            chaine[i] = getValue(i+1);
         }
         return chaine;
     }
